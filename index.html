@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Armador de Equipos</title>
+</head>
+<body>
+  <h1>Agregar Jugadores</h1>
+
+  <!-- Formulario para agregar un jugador -->
+  <input type="text" id="playerName" placeholder="Nombre del Jugador">
+  <button id="addPlayerBtn">Agregar Jugador</button>
+
+  <!-- Botón para exportar como CSV -->
+  <button id="exportCsvBtn">Exportar a CSV</button>
+
+  <!-- Formulario para importar jugadores desde CSV -->
+  <h2>Importar Jugadores desde CSV</h2>
+  <input type="file" id="importCsvFile" accept=".csv">
+  <button id="importCsvBtn">Importar CSV</button>
+
+  <!-- Mostrar la lista de jugadores agregados -->
+  <h2>Jugadores Agregados:</h2>
+  <ul id="playerList"></ul>
+
+  <!-- Enlazar con el archivo de JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
